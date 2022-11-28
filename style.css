@@ -1,0 +1,124 @@
+
+html{
+    min-height: 100%;
+}
+
+body{
+    min-height: 100%;
+
+    background-image: url("beach.jpeg");
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+#results{
+display: grid;
+grid-gap: 8px;
+grid-template-columns: repeat(6, 1fr);
+grid-template-rows: repeat(20, minmax(25px, auto));
+ }  
+
+
+ .input-box{
+    grid-column: 3/5;
+    grid-row: 4/5;
+   
+    border-radius: 15%;
+    font-display: bold;
+ }
+
+
+.drop{
+    grid-column: 6/-1;
+    border-radius: 25%;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.title{
+    color: white;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    font-size: x-large;
+}
+
+.title{
+    color: black;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-column: 3/5;
+    font-weight: bold;
+}
+
+
+.search{
+    grid-column: 5/6;
+    grid-row: 4/5;
+    width: 60px;
+    font-weight: bold;
+    background-color: aquamarine;
+    border-radius: 25%;
+    align-self: end;
+    justify-self: start;
+}
+
+.fish-name{
+    grid-column: 3/5;
+    grid-row: 7/8;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: large;
+}
+
+.photo{
+    grid-column: 3/5;
+    grid-row: 8/9;
+    width: 350px;
+    height: 350px;
+    border-radius: 20%;
+    /* border: 5px solid white; */
+    /* border-color: white; */
+    border-width: 4px;
+    padding: 0;
+    margin: 0;
+}
+
+.calories{
+    grid-column: 2/3;
+    grid-row: 9/10;
+}
+
+.carbs{
+    grid-column: 2/3;
+    grid-row: 10/11;
+}
+
+.cho{
+    grid-column: 3/4;
+    grid-row: 9/10;
+}
+
+.fat{
+    grid-column: 3/4;
+    grid-row: 10/11;
+}
+
+.protein{
+    grid-column: 4/5;
+    grid-row: 9/10;
+}
+
+.sodium{
+    grid-column: 4/5;
+    grid-row: 10/11;
+}
+
+.servings{
+    grid-column: 5/6;
+    grid-row: 9/10;
+}
